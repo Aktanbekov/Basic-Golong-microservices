@@ -1,0 +1,9 @@
+schema: schema.graphql
+
+
+models:
+  Account:
+    model: github.com/Aktanbekov/Basic-Golong-microservices/graphql.Account
+    fields:
+      orders:
+        resolver: true
